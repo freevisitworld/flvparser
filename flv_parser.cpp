@@ -371,4 +371,5 @@ int main(int argc, char **argv) {
     cout << "audiosamplesize: " << flvMetaData->getAudioSamplesize() << endl;
     cout << "audiocodecid: " << flvMetaData->getAudioCodecId() << endl;
     cout << "stereo: " << flvMetaData->getStereo() << endl;
+    cout << "parse done" << endl;
 }
